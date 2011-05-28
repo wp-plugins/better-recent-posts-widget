@@ -1,14 +1,13 @@
 <?php
 /*
 Plugin Name: Better Recent Posts Widget
-Plugin URI: http://pippinspages.com/better-recent-posts-widget
+Plugin URI: http://pippinsplugins.com/better-recent-posts-widget
 Description: Provides a better recent posts widget, including thumbnails and number options
-Version: 1.0
+Version: 1.1.1
 Author: Pippin Williamson
-Author URI: http://pippinspages.com
+Author URI: http://pippinsplugins.com
 */
 
-$posttypes = get_post_types('', 'objects');
 
 /**
  * Recent Posts Widget Class
@@ -72,7 +71,7 @@ class pippin_recent_posts extends WP_Widget {
     /** @see WP_Widget::form */
     function form($instance) {	
 
-		global $posttypes;
+		$posttypes = get_post_types('', 'objects');
 	
         $title = esc_attr($instance['title']);
         $number = esc_attr($instance['number']);
