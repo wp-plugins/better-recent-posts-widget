@@ -5,14 +5,14 @@ Plugin URI: http://pippinspages.com/better-recent-posts-widget
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=72HGD7SA97KPE
 Tags: widget, recent posts, widgets, thumbnails
 Requires at least: 2.8
-Tested up to: 3.1
-Stable tag: 1.0
+Tested up to: 3.1.4
+Stable tag: 1.1.2
 
 This plugin lets provides a much better recent posts widget, including thumbnails
 
 == Description ==
 
-WordPress comes with a Recent Posts widget that you can use to display a list of your latest posts in your widgetized sidebar, but it’s really not very good in the fact that it does give you any control over your posts at all. So I’ve written a new one.
+WordPress comes with a Recent Posts widget that you can use to display a list of your latest posts in your widgetized sidebar, but it is really not very good in the fact that it does give you any control over your posts at all. So I have written a new one.
 
 This is a very simple plugin, but it gives you much better control over your widget display.
 
