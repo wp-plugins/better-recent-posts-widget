@@ -2,8 +2,8 @@
 /*
 Plugin Name: Better Recent Posts Widget
 Plugin URI: http://pippinsplugins.com/better-recent-posts-widget
-Description: Provides a better recent posts widget, including thumbnails and number options
-Version: 1.1.1
+Description: Provides a better recent posts widget, including thumbnails, category, and number options
+Version: 1.1.2
 Author: Pippin Williamson
 Author URI: http://pippinsplugins.com
 */
@@ -25,6 +25,7 @@ class pippin_recent_posts extends WP_Widget {
         extract( $args );
 		global $posttypes;
         $title 			= apply_filters('widget_title', $instance['title']);
+        $cat 			= apply_filters('widget_title', $instance['cat']);
         $number 		= apply_filters('widget_title', $instance['number']);
         $offset 		= apply_filters('widget_title', $instance['offset']);
         $thumbnail_size = apply_filters('widget_title', $instance['thumbnail_size']);
@@ -38,7 +39,10 @@ class pippin_recent_posts extends WP_Widget {
 							<?php
 								global $post;
 								$tmp_post = $post;
-								$args = array( 'numberposts' => $number, 'offset'=> $offset, 'post_type' => $posttype );
+								
+								// get the category IDs and place them in an array
+								
+								$args = 'numberposts=' . $number . '&offset' . $offset . '&post_type' . $posttype . '&cat=' . $cat;
 								$myposts = get_posts( $args );
 								foreach( $myposts as $post ) : setup_postdata($post); ?>
 									<li <?php if(!empty($thumbnail_size)) { $size = $thumbnail_size + 8; echo 'style="height: ' . $size . 'px;"'; } ?> >
@@ -60,6 +64,7 @@ class pippin_recent_posts extends WP_Widget {
 		global $posttypes;
 		$instance = $old_instance;
 		$instance['title'] = strip_tags($new_instance['title']);
+		$instance['cat'] = strip_tags($new_instance['cat']);
 		$instance['number'] = strip_tags($new_instance['number']);
 		$instance['offset'] = strip_tags($new_instance['offset']);
 		$instance['thumbnail_size'] = strip_tags($new_instance['thumbnail_size']);
@@ -74,6 +79,7 @@ class pippin_recent_posts extends WP_Widget {
 		$posttypes = get_post_types('', 'objects');
 	
         $title = esc_attr($instance['title']);
+        $cat = esc_attr($instance['cat']);
         $number = esc_attr($instance['number']);
         $offset = esc_attr($instance['offset']);
         $thumbnail_size = esc_attr($instance['thumbnail_size']);
@@ -83,6 +89,10 @@ class pippin_recent_posts extends WP_Widget {
          <p>
           <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label> 
           <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
+        </p>
+		<p>
+          <label for="<?php echo $this->get_field_id('cat'); ?>"><?php _e('Category IDs, separated by commas'); ?></label> 
+          <input class="widefat" id="<?php echo $this->get_field_id('cat'); ?>" name="<?php echo $this->get_field_name('cat'); ?>" type="text" value="<?php echo $cat; ?>" />
         </p>
 		<p>
           <label for="<?php echo $this->get_field_id('number'); ?>"><?php _e('Number to Show:'); ?></label> 
