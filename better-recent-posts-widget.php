@@ -3,7 +3,7 @@
 Plugin Name: Better Recent Posts Widget
 Plugin URI: http://pippinsplugins.com/better-recent-posts-widget
 Description: Provides a better recent posts widget, including thumbnails, category, and number options
-Version: 1.1.2
+Version: 1.1.4
 Author: Pippin Williamson
 Author URI: http://pippinsplugins.com
 */
@@ -42,7 +42,7 @@ class pippin_recent_posts extends WP_Widget {
 								
 								// get the category IDs and place them in an array
 								
-								$args = 'numberposts=' . $number . '&offset' . $offset . '&post_type' . $posttype . '&cat=' . $cat;
+								$args = 'numberposts=' . $number . '&offset=' . $offset . '&post_type=' . $posttype . '&cat=' . $cat;
 								$myposts = get_posts( $args );
 								foreach( $myposts as $post ) : setup_postdata($post); ?>
 									<li <?php if(!empty($thumbnail_size)) { $size = $thumbnail_size + 8; echo 'style="height: ' . $size . 'px;"'; } ?> >
@@ -112,10 +112,10 @@ class pippin_recent_posts extends WP_Widget {
         </p>
 		<p>	
 			<label for="<?php echo $this->get_field_id('posttype'); ?>"><?php _e('Choose the Post Type to display'); ?></label> 
-			<select name="<?php echo $this->get_field_name('posttype'); ?>" id="<?php echo $this->get_field_id('posttype'); ?>" class="widefat"/>
+			<select name="<?php echo $this->get_field_name('posttype'); ?>" id="<?php echo $this->get_field_id('posttype'); ?>" class="widefat">
 				<?php
 				foreach ($posttypes as $option) {
-					echo '<option id="' . $option->name . '"', $posttype == $option->name ? ' selected="selected"' : '', '>', $option->name, '</option>';
+					echo '<option value="' . $option->name . '" id="' . $option->name . '"', $posttype == $option->name ? ' selected="selected"' : '', '>', $option->name, '</option>';
 				}
 				?>
 			</select>		
