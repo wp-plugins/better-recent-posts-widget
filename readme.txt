@@ -1,5 +1,6 @@
 === Better Recent Posts Widget ===
-Author: mordauk
+Author: Pippin Williamson
+Contributors: mordauk
 Author URI: http://pippinsplugins.com
 Plugin URI: http://pippinspages.com/better-recent-posts-widget
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=72HGD7SA97KPE
