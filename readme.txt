@@ -6,7 +6,7 @@ Plugin URI: http://pippinspages.com/better-recent-posts-widget
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=72HGD7SA97KPE
 Tags: widget, recent posts, widgets, thumbnails
 Requires at least: 2.8
-Tested up to: 3.3
+Tested up to: 4.1
 Stable tag: 1.1.4
 
 This plugin lets provides a much better recent posts widget, including thumbnails
