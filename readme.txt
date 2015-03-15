@@ -4,10 +4,10 @@ Contributors: mordauk
 Author URI: http://pippinsplugins.com
 Plugin URI: http://pippinspages.com/better-recent-posts-widget
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=72HGD7SA97KPE
-Tags: widget, recent posts, widgets, thumbnails
+Tags: widget, recent posts, widgets, thumbnails, adopt-me
 Requires at least: 2.8
-Tested up to: 4.1
-Stable tag: 1.1.4
+Tested up to: 4.2
+Stable tag: 1.1.5
 
 This plugin lets provides a much better recent posts widget, including thumbnails
 
@@ -39,5 +39,13 @@ Features
 Check out http://pippinsplugins.com/better-recent-posts-widget/
 
 
+== Changelog ==
 
+= 1.1.5, March 15, 2015  =
+
+* Confirmed compatibility with WordPress 4.2
+* Updated several standards
+* Replaced query string in get_posts() with array of arguments
+* Replaced "numberposts" parameter with "post_per_page"
+* Added "adopt-me" tag to put plugin up for adoption
 
