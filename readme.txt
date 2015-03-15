@@ -1,32 +1,33 @@
 === Better Recent Posts Widget ===
 Author: Pippin Williamson
+Contributors: mordauk
 Author URI: http://pippinsplugins.com
 Plugin URI: http://pippinspages.com/better-recent-posts-widget
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=72HGD7SA97KPE
-Tags: widget, recent posts, widgets, thumbnails
+Tags: widget, recent posts, widgets, thumbnails, adopt-me
 Requires at least: 2.8
-Tested up to: 3.1
-Stable tag: 1.0
+Tested up to: 4.2
+Stable tag: 1.1.5
 
 This plugin lets provides a much better recent posts widget, including thumbnails
 
 == Description ==
 
-WordPress comes with a Recent Posts widget that you can use to display a list of your latest posts in your widgetized sidebar, but it’s really not very good in the fact that it does give you any control over your posts at all. So I’ve written a new one.
+WordPress comes with a Recent Posts widget that you can use to display a list of your latest posts in your widgetized sidebar, but it is really not very good in the fact that it does not give you any control over your posts at all. So I have written a new one.
 
 This is a very simple plugin, but it gives you much better control over your widget display.
 
 Also includes ability to display recent custom post types
 
-== Features ==
+Features
 
-1. New Recent Posts Widget
-2. Widget Title Option
-3. Option to control the number of posts displayed
-4. Option to control the posts offset
-5. Ability to enable post thumbnails
-6. Thumbnail size option
-7. Choose the post type to display
+* New Recent Posts Widget
+* Widget Title Option
+* Option to control the number of posts displayed
+* Option to control the posts offset
+* Ability to enable post thumbnails
+* Thumbnail size option
+* Choose the post type to display
 
 == Installation ==
 
@@ -38,5 +39,13 @@ Also includes ability to display recent custom post types
 Check out http://pippinsplugins.com/better-recent-posts-widget/
 
 
+== Changelog ==
 
+= 1.1.5, March 15, 2015  =
+
+* Confirmed compatibility with WordPress 4.2
+* Updated several standards
+* Replaced query string in get_posts() with array of arguments
+* Replaced "numberposts" parameter with "post_per_page"
+* Added "adopt-me" tag to put plugin up for adoption
 
