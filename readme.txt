@@ -4,7 +4,7 @@ Contributors: dgewirtz
 Author URI: http://zatzlabs.com/lab-notes/
 Plugin URI: http://zatzlabs.com/better-recent-posts-widget/
 Donate link: http://zatzlabs.com/better-recent-posts-widget/
-Tags: widget, recent posts, widgets, thumbnails, adopt-me
+Tags: widget, recent posts, widgets, thumbnails
 Requires at least: 2.8
 Tested up to: 4.2
 Stable tag: 1.1.6
