@@ -1,19 +1,19 @@
 === Better Recent Posts Widget ===
-Author: Pippin Williamson
-Contributors: mordauk
-Author URI: http://pippinsplugins.com
-Plugin URI: http://pippinspages.com/better-recent-posts-widget
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=72HGD7SA97KPE
+Author: David Gewirtz
+Contributors: dgewirtz
+Author URI: http://zatzlabs.com/lab-notes/
+Plugin URI: http://zatzlabs.com/better-recent-posts-widget/
+Donate link: http://zatzlabs.com/better-recent-posts-widget/
 Tags: widget, recent posts, widgets, thumbnails, adopt-me
 Requires at least: 2.8
 Tested up to: 4.2
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 
-This plugin lets provides a much better recent posts widget, including thumbnails
+This plugin lets provides a much better recent posts widget, including thumbnails. Adopted from Pippin Williamson.
 
 == Description ==
 
-WordPress comes with a Recent Posts widget that you can use to display a list of your latest posts in your widgetized sidebar, but it is really not very good in the fact that it does not give you any control over your posts at all. So I have written a new one.
+WordPress comes with a Recent Posts widget that you can use to display a list of your latest posts in your widgetized sidebar, but it is really not very good in the fact that it does not give you any control over your posts at all. 
 
 This is a very simple plugin, but it gives you much better control over your widget display.
 
@@ -36,10 +36,14 @@ Features
 
 == Screenshots ==
 
-Check out http://pippinsplugins.com/better-recent-posts-widget/
+Check out http://zatzlabs.com/better-recent-posts-widget/
 
 
 == Changelog ==
+
+= 1.1.6, March 18, 2015 =
+
+* Adopted by David Gewirtz, updated plugin details and readme
 
 = 1.1.5, March 15, 2015  =
 
