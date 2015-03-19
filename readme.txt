@@ -7,7 +7,7 @@ Donate link: http://zatzlabs.com/better-recent-posts-widget/
 Tags: widget, recent posts, widgets, thumbnails
 Requires at least: 2.8
 Tested up to: 4.2
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 
 This plugin lets provides a much better recent posts widget, including thumbnails. Adopted from Pippin Williamson.
 
@@ -40,6 +40,10 @@ Check out http://zatzlabs.com/better-recent-posts-widget/
 
 
 == Changelog ==
+
+= 1.1.7, March 18, 2015 = 
+
+* Completed adoption changes for plugin maintenance
 
 = 1.1.6, March 18, 2015 =
 
