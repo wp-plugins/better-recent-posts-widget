@@ -4,7 +4,7 @@ Contributors: dgewirtz
 Author URI: http://zatzlabs.com/lab-notes/
 Plugin URI: http://zatzlabs.com/better-recent-posts-widget/
 Donate link: http://zatzlabs.com/better-recent-posts-widget/
-Tags: widget, recent posts, widgets, thumbnails
+Tags: widget, recent posts, widgets, thumbnails, images, featured images, featured thumbnails, post thumbnail, customize thumbnail, multisite
 Requires at least: 2.8
 Tested up to: 4.2
 Stable tag: 1.1.8
@@ -15,11 +15,11 @@ If you’ve ever wanted more control (a lot more control) over displaying your r
 
 If you've ever wanted to display recent posts, but go far beyond the Recent Posts widget that comes with WordPress, you're in the right place. 
 
-One of the very best ways to increase time-on-site (and therefore the engagement of you audience) is helping visitors discover new and wonderful pages and posts on your site. Better Recent Posts Widget can do that, but displaying your beautiful featured images right in the widget. You can control the number of posts to display, specify if you want to skip some posts, and display custom post types.
+One of the very best ways to increase time-on-site (and therefore the engagement of your audience) is helping visitors discover new and wonderful pages and posts on your site. Better Recent Posts Widget can do that by displaying your beautiful featured images right in the widget. You can control the number of posts to display, specify if you want to skip some posts, and display custom post types.
 
 = Features =
 
-The downloadable version has the following features
+The WordPress.org version has the following features:
 
 * All new, better Recent Posts widget
 * Specify widget title
@@ -29,7 +29,7 @@ The downloadable version has the following features
 * Customize thumbnail size
 * Choose post type to display
 
-= Additional Features in Pro Version =
+Additional features in the pro version:
 
 * Optionally display post author
 * Optionally display post count
@@ -44,13 +44,15 @@ The downloadable version has the following features
 > <strong>Adoption Notice</strong><br>
 > This plugin was recently adopted by David Gewirtz and ongoing support and updates will continue. Feel free to visit [David's Lab Notes](http://zatzlabs.com/when-it-rains-it-pours-another-plugin-adoption/) for a development roadmap and additional details.
 
-> <strong>Pro Version Availability</strong><br>
+= Pro Version Availability =
+
 The pro version of this plugin is available for sale (and, indeed, will likely have an exciting future). To purchase the pro version, please visit [the plugin's new home page](http://zatzlabs.com/better-recent-posts-widget/).
 
-> <strong>Support Note</strong><br>
+= Support Note =
+
 > Sales of the pro version on CodeCanyon have been halted and the pro plugin is now being sold [directly](http://zatzlabs.com/better-recent-posts-widget/). CodeCanyon Better Recent Posts Widget Pro users (and, of course, users of the free version) are invited to post questions [here on the Support boards](https://wordpress.org/support/plugin/better-recent-posts-widget). Please specify you're using the pro version and I'll do my best to answer them. 
 
-> <strong>Mailing List</strong><br>
+= Mailing List =
 >If you'd like to keep up with the latest updates to this plugin, please visit [David's Lab Notes](http://zatzlabs.com/lab-notes/) and add yourself to the mailing list.
 
 Adopted from Pippin Williamson.
