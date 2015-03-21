@@ -7,27 +7,53 @@ Donate link: http://zatzlabs.com/better-recent-posts-widget/
 Tags: widget, recent posts, widgets, thumbnails
 Requires at least: 2.8
 Tested up to: 4.2
-Stable tag: 1.1.7
+Stable tag: 1.1.8
 
-This plugin lets provides a much better recent posts widget, including thumbnails. Adopted from Pippin Williamson.
+If you’ve ever wanted more control (a lot more control) over displaying your recent posts, this is the widget for you. Plus thumbnails. Glorious, wonderful thumbnails.
 
 == Description ==
 
-WordPress comes with a Recent Posts widget that you can use to display a list of your latest posts in your widgetized sidebar, but it is really not very good in the fact that it does not give you any control over your posts at all. 
+If you've ever wanted to display recent posts, but go far beyond the Recent Posts widget that comes with WordPress, you're in the right place. 
 
-This is a very simple plugin, but it gives you much better control over your widget display.
+One of the very best ways to increase time-on-site (and therefore the engagement of you audience) is helping visitors discover new and wonderful pages and posts on your site. Better Recent Posts Widget can do that, but displaying your beautiful featured images right in the widget. You can control the number of posts to display, specify if you want to skip some posts, and display custom post types.
 
-Also includes ability to display recent custom post types
+= Features =
 
-Features
+The downloadable version has the following features
 
-* New Recent Posts Widget
-* Widget Title Option
-* Option to control the number of posts displayed
-* Option to control the posts offset
-* Ability to enable post thumbnails
-* Thumbnail size option
-* Choose the post type to display
+* All new, better Recent Posts widget
+* Specify widget title
+* Control number of posts displayed
+* Control number of posts to skip (offset)
+* Optionally display post thumbnails
+* Customize thumbnail size
+* Choose post type to display
+
+= Additional Features in Pro Version =
+
+* Optionally display post author
+* Optionally display post count
+* Optionally display post comment count
+* Optionally display post excerpt/length
+* Customize post display order
+* Customize post sorting method
+* Better taxonomy selection control
+* Multiple widget instance support
+* Multisite capable
+
+> <strong>Adoption Notice</strong><br>
+> This plugin was recently adopted by David Gewirtz and ongoing support and updates will continue. Feel free to visit [David's Lab Notes](http://zatzlabs.com/when-it-rains-it-pours-another-plugin-adoption/) for a development roadmap and additional details.
+
+> <strong>Pro Version Availability</strong><br>
+The pro version of this plugin is available for sale (and, indeed, will likely have an exciting future). To purchase the pro version, please visit [the plugin's new home page](http://zatzlabs.com/better-recent-posts-widget/).
+
+> <strong>Support Note</strong><br>
+> Sales of the pro version on CodeCanyon have been halted and the pro plugin is now being sold [directly](http://zatzlabs.com/better-recent-posts-widget/). CodeCanyon Better Recent Posts Widget Pro users (and, of course, users of the free version) are invited to post questions [here on the Support boards](https://wordpress.org/support/plugin/better-recent-posts-widget). Please specify you're using the pro version and I'll do my best to answer them. 
+
+> <strong>Mailing List</strong><br>
+>If you'd like to keep up with the latest updates to this plugin, please visit [David's Lab Notes](http://zatzlabs.com/lab-notes/) and add yourself to the mailing list.
+
+Adopted from Pippin Williamson.
 
 == Installation ==
 
@@ -36,20 +62,29 @@ Features
 
 == Screenshots ==
 
-Check out http://zatzlabs.com/better-recent-posts-widget/
-
+1. Better Recent Posts Widget example.
+2. The Better Recent Posts Widget widget.
+3. The Pro version widget.
 
 == Changelog ==
 
-= 1.1.7, March 18, 2015 = 
+= 1.1.8 =
+
+* Added support resources
+
+
+= 1.1.7 = 
+
+
 
 * Completed adoption changes for plugin maintenance
 
-= 1.1.6, March 18, 2015 =
+
+= 1.1.6 =
 
 * Adopted by David Gewirtz, updated plugin details and readme
 
-= 1.1.5, March 15, 2015  =
+= 1.1.5  =
 
 * Confirmed compatibility with WordPress 4.2
 * Updated several standards
