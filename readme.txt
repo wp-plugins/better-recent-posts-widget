@@ -50,10 +50,10 @@ The pro version of this plugin is available for sale (and, indeed, will likely h
 
 = Support Note =
 
-> Sales of the pro version on CodeCanyon have been halted and the pro plugin is now being sold [directly](http://zatzlabs.com/better-recent-posts-widget/). CodeCanyon Better Recent Posts Widget Pro users (and, of course, users of the free version) are invited to post questions [here on the Support boards](https://wordpress.org/support/plugin/better-recent-posts-widget). Please specify you're using the pro version and I'll do my best to answer them. 
+Sales of the pro version on CodeCanyon have been halted and the pro plugin is now being sold [directly](http://zatzlabs.com/better-recent-posts-widget/). CodeCanyon Better Recent Posts Widget Pro users (and, of course, users of the free version) are invited to post questions [here on the Support boards](https://wordpress.org/support/plugin/better-recent-posts-widget). Please specify you're using the pro version and I'll do my best to answer them. 
 
 = Mailing List =
->If you'd like to keep up with the latest updates to this plugin, please visit [David's Lab Notes](http://zatzlabs.com/lab-notes/) and add yourself to the mailing list.
+If you'd like to keep up with the latest updates to this plugin, please visit [David's Lab Notes](http://zatzlabs.com/lab-notes/) and add yourself to the mailing list.
 
 Adopted from Pippin Williamson.
 
