@@ -9,7 +9,7 @@ Requires at least: 2.8
 Tested up to: 4.2
 Stable tag: 1.1.8
 
-If you’ve ever wanted more control (a lot more control) over displaying your recent posts, this is the widget for you. Plus thumbnails. Glorious, wonderful thumbnails.
+If you’ve ever wanted more control (a lot more control) over displaying your recent posts, this is the widget for you. Plus thumbnails.
 
 == Description ==
 
