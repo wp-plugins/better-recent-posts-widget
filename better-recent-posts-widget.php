@@ -3,7 +3,7 @@
 Plugin Name: Better Recent Posts Widget
 Plugin URI: http://zatzlabs.com/better-recent-posts-widget/
 Description: Provides a better recent posts widget, including thumbnails, category, and number options. Plugin adopted from Pippin Williamson.
-Version: 1.1.7
+Version: 1.1.8
 Author: David Gewirtz
 Author URI: http://zatzlabs.com/lab-notes/
 */
