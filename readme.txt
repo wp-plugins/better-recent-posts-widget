@@ -7,7 +7,7 @@ Donate link: http://zatzlabs.com/better-recent-posts-widget/
 Tags: widget, recent posts, widgets, thumbnails, images, featured images, featured thumbnails, post thumbnail, customize thumbnail, multisite
 Requires at least: 2.8
 Tested up to: 4.2
-Stable tag: 1.1.8
+Stable tag: 1.1.9
 
 If you’ve ever wanted more control (a lot more control) over displaying your recent posts, this is the widget for you. Plus thumbnails.
 
@@ -69,6 +69,10 @@ Adopted from Pippin Williamson.
 3. The Pro version widget.
 
 == Changelog ==
+
+= 1.1.9 = 
+
+* Fixed bug where the number of posts shown was always five
 
 = 1.1.8 =
 

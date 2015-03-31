@@ -3,7 +3,7 @@
 Plugin Name: Better Recent Posts Widget
 Plugin URI: http://zatzlabs.com/better-recent-posts-widget/
 Description: Provides a better recent posts widget, including thumbnails, category, and number options. Plugin adopted from Pippin Williamson.
-Version: 1.1.8
+Version: 1.1.9
 Author: David Gewirtz
 Author URI: http://zatzlabs.com/lab-notes/
 */
@@ -43,7 +43,7 @@ class pippin_recent_posts extends WP_Widget {
 								// get the category IDs and place them in an array
 
 								$args = array(
-                  'post_per_page' => $number,
+                  'posts_per_page' => $number,
                   'offset' => $offset,
                   'post_type' => $posttype,
                   'cat' => $cat
